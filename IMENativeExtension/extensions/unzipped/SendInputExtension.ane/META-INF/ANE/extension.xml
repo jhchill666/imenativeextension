@@ -1,8 +1,8 @@
-<extension xmlns="http://ns.adobe.com/air/extension/3.0">
+<extension xmlns="http://ns.adobe.com/air/extension/2.5">
 	<id>com.tiltdigital.extensions.SendInputExtension</id>
 	<versionNumber>1.0.0</versionNumber>
 	<platforms>
-		<platform name="native">
+		<platform name="Windows-x86">
 			<applicationDeployment>
 				<nativeLibrary>FRESendInput.dll</nativeLibrary>
 				<initializer>initializer</initializer>

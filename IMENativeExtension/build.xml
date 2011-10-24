@@ -2,13 +2,13 @@
 <project default="test">
 	<!-- SDK properties -->
 	<property name="SDK_HOME"
-			  value="/Applications/Adobe Flash Builder 4.5/sdks/flex_sdk_4.5.1.21328_air3"/>
+			  value="C:\Program Files\Adobe\Adobe Flash Builder 4\sdks\flex_sdk_4.5.1.21328_air3"/>
 	<property name="MXMLC.JAR"
 			  value="${SDK_HOME}/lib/mxmlc.jar"/>
 	<property name="COMPC.JAR"
 			  value="${SDK_HOME}/lib/compc.jar"/>
 	<property name="ADL"
-			  value="${SDK_HOME}/bin/adl"/>
+			  value="${SDK_HOME}/bin/adl.exe"/>
 	<property name="ADT.JAR"
 			  value="${SDK_HOME}/lib/adt.jar"/>
 
@@ -118,7 +118,7 @@
 			<arg value="-swc"/>
 			<arg value="nativeextensions.swc"/>
 			<arg value="-platform"/>
-			<arg value="native"/>
+			<arg value="Windows-x86"/>
 			<arg value="library.swf"/>
 			<arg line="'${nativeExtensionFiles}'"/>
 		</java>

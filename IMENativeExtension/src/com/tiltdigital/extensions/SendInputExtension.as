@@ -12,16 +12,16 @@ package com.tiltdigital.extensions
 		 */
 		public function SendInputExtension()
 		{
-			context = ExtensionContext.createExtensionContext( 'com.tiltdigital.utils.SendInput', '' );
+			context = ExtensionContext.createExtensionContext( 'com.tiltdigital.extensions.SendInputExtension', '' );
 		}
 
 
 		/**
 		 *
 		 */
-		public function sendChar( char:String ):void
+		public function sendChar( char:String ):*
 		{
-			context.call( 'sendInput', char );
+			return context.call( 'sendInput', char );
 		}
 	}
 }

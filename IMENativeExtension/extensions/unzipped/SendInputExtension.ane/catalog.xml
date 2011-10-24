@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.5.1" build="21328" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="_cf25184f4f0c23a52fbe390cf63021937cc3a1ff7b8051f867c4ed39755ccca9_flash_display_Sprite" mod="1319462469724" signatureChecksum="3428743929" >
+        <def id="_cf25184f4f0c23a52fbe390cf63021937cc3a1ff7b8051f867c4ed39755ccca9_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/tiltdigital/extensions/SendInputExtension" mod="1319458359583" signatureChecksum="1409498215" >
+        <def id="com.tiltdigital.extensions:SendInputExtension" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="1846311a7d108db5d5d55f2be90577ead343abc3aed5fff15ad01feece3ecad5"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>
