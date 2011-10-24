@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.0">
+	<id>com.tiltdigital.extensions.SendInputExtension</id>
+	<versionNumber>1.0.0</versionNumber>
+	<platforms>
+		<platform name="native">
+			<applicationDeployment>
+				<nativeLibrary>FRESendInput.dll</nativeLibrary>
+				<initializer>initializer</initializer>
+				<finalizer>finalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>

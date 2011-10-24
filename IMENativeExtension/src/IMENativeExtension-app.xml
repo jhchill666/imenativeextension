@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/3.0">
+
+	<extensions>
+		<extensionID>com.tiltdigital.extensions.SendInputExtension</extensionID>
+	</extensions>
+	<id>IMENativeExtension</id>
+	<filename>IMENativeExtension</filename>
+	<name>IMENativeExtension</name>
+	<versionNumber>1.0.0</versionNumber>
+	<initialWindow>
+		<content>[This value will be overwritten by Flash Builder in the output app.xml]</content>
+		<autoOrients>false</autoOrients>
+		<fullScreen>false</fullScreen>
+		<visible>false</visible>
+	</initialWindow>
+	<supportedProfiles>extendedDesktop</supportedProfiles>
+
+</application>
